@@ -1,0 +1,30 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+div{
+    text-align: center;
+    margin-top: 250px;
+    
+}
+.choose_file{
+    color: white;
+    margin: 4px;
+    margin-left: 2px;
+    margin: 4px;
+    margin-left: 2px;
+    padding-top: 2px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+
+}
+.upload{
+    background-color: white;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 1px solid black;
+    border-radius: 2px;
+}

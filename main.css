@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    background-color: black;
+}
+.btn{
+    margin-top: 250px;
+    text-align: center;
+    
+}
+
+
+
+.button{
+    background-color:#ffffff;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right:20px ;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    cursor:pointer;
+    margin: 2px;
+    height:50px ;
+    width:300px ;
+    
+    box-shadow: 0 0 50px #14f7ff;
+    
+    
+}
+button:hover{
+    color:black;
+    background-color: #fefefe;
+    background:#14f7ff;
+    box-shadow: 0 0 50px #14f7ff;
+    
+    
+}

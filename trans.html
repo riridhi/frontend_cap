@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="trans.css"></link>
+
+</head>
+<body>
+   <div>
+    <form class="f1" action="accept" method="post">
+      <input id="input1">
+    
+      <button id="btn_trans">Translate</button>
+    </form>
+    <br>
+    <form>
+          
+      Input Language <input id="input2"></input> <br>
+      <br>
+      output Language <input id="input3">
+    </form>
+    <br>
+        <form  class="choose_file" action="/upload" method="post" enctype="multipart/form-data">
+          <input type="file" id="imageUpload" name="image" accept="image/*" required>
+          <button class="detect_btn" type="submit">Detect</button>
+        </form>
+
+        
+        
+        </div>
+</body>
+</html>
